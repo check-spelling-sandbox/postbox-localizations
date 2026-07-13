@@ -10,3 +10,9 @@ msgid ".*"|"(?:Project-Id-Version|MIME-Version|Content-Type|Content-Transfer-Enc
 
 # unicode escaped characters (4)
 \\u[0-9a-fA-F]{4}
+
+# Windows Resources with accelerators
+\b[A-Z]&[a-z]+\b(?!;)
+
+# localization note (dtd)
+<!-- Localization note .* -->

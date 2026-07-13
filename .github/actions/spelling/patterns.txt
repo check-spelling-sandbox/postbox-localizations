@@ -12,6 +12,10 @@ Date.CultureInfo=.*
 # IServiceProvider / isAThing
 (?:(?:\b|_|(?<=[a-z]))I|(?:\b|_)(?:nsI|isA))(?=(?:[A-Z][a-z]{2,})+(?:[A-Z\d]|\b))
 
+# hit-count: 12 file-count: 1
+# hex digits including css/html color classes
+(?:[\\0][xX]|\\u\{?|[uU]\+|#x?|%23|&H)[0-9_a-fA-FgGrR]*?[a-fA-FgGrR]{2,}[0-9_a-fA-FgGrR]*(?:[uUlL]{0,3}|[iu]\d+)\b
+
 # hit-count: 10 file-count: 10
 # data url
 \bdata:[-a-zA-Z=;:/0-9+_]*,\S*
@@ -29,6 +33,10 @@ Date.CultureInfo=.*
 # hit-count: 4 file-count: 2
 # printf markers
 (?<!\\)\\[nrt](?=[a-z]{2,})
+
+# hit-count: 2 file-count: 2
+# Windows Resources with accelerators
+\b[A-Z]&[a-z]+\b(?!;)
 
 # Questionably acceptable forms of `in to`
 # Personally, I prefer `log into`, but people object
