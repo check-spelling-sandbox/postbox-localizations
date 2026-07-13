@@ -13,6 +13,7 @@
     "cspell1:filetypes/filetypes.txt",
     "cspell1:fullstack/fullstack.txt",
     "cspell1:python/common/extra.txt",
+    "cspell1:npm/npm.txt",
     ""
   ],
   "check_extra_dictionaries": [
