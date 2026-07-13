@@ -1,1 +1,2 @@
 ^\.github/actions/spelling
+^ru/mail/chrome/messenger-region/region\.properties$
