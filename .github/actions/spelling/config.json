@@ -14,6 +14,11 @@
     "cspell1:fullstack/fullstack.txt",
     "cspell1:python/common/extra.txt",
     "cspell1:npm/npm.txt",
+    "cspell1:css/css.txt",
+    "cspell1:php/php.txt",
+    "cspell1:node/node.txt",
+    "cspell1:typescript/typescript.txt",
+    "cspell1:java/java-terms.txt",
     ""
   ],
   "check_extra_dictionaries": [
