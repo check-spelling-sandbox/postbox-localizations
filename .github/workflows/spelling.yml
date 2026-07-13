@@ -147,7 +147,7 @@ jobs:
           files=$(mktemp)
           git ls-files -z > "$files"
           locales=$(
-            for a in $(find .github/actions/spelling-locales -mindepth 1 -maxdepth 1 -type d ! -name '.*'); do
+            for a in $(find .github/actions/spelling-locales -mindepth 1 -maxdepth 1 -type d ! -name '.*' ! -name 'common'); do
               a="$a" perl -e '
                 use File::Basename;
                 sub readfile {
