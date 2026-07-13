@@ -1,5 +1,7 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
 
+Date.CultureInfo=.*
+
 # Automatically suggested patterns
 
 # hit-count: 5157 file-count: 124
