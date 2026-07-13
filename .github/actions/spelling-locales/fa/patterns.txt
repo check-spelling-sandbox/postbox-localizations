@@ -1,3 +1,6 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
 
 Date.CultureInfo=.*
+
+# unicode escaped characters (4)
+\\u[0-9a-fA-F]{4}

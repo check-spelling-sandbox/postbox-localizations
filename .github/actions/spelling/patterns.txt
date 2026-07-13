@@ -8,6 +8,28 @@ Date.CultureInfo=.*
 # https/http/file urls
 (?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;\\]+[-A-Za-z0-9+&@#/*%=~_|]
 
+# hit-count: 22 file-count: 14
+# IServiceProvider / isAThing
+(?:(?:\b|_|(?<=[a-z]))I|(?:\b|_)(?:nsI|isA))(?=(?:[A-Z][a-z]{2,})+(?:[A-Z\d]|\b))
+
+# hit-count: 10 file-count: 10
+# data url
+\bdata:[-a-zA-Z=;:/0-9+_]*,\S*
+
+# hit-count: 10 file-count: 6
+# unicode escaped characters (4)
+\\u[0-9a-fA-F]{4}
+
+# hit-count: 8 file-count: 8
+# Library prefix
+# e.g., `lib`+`archive`, `lib`+`raw`, `lib`+`unwind`
+# (ignores some words that happen to start with `lib`)
+(?:\b|_)[Ll]ib(?!era[lt])(?:re(?=office)|era|)(?!ero|erty|rar(?:i(?:an|es)|y))(?=[a-z])
+
+# hit-count: 4 file-count: 2
+# printf markers
+(?<!\\)\\[nrt](?=[a-z]{2,})
+
 # Questionably acceptable forms of `in to`
 # Personally, I prefer `log into`, but people object
 # https://www.tprteaching.com/log-into-log-in-to-login/
