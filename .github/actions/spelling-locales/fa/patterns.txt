@@ -2,6 +2,9 @@
 
 Date.CultureInfo=.*
 
+# https/http/file urls
+(?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;\\]+[-A-Za-z0-9+&@#/*%=~_|]
+
 # unicode escaped characters (4)
 \\u[0-9a-fA-F]{4}
 

@@ -7,6 +7,9 @@ msgid ".*"|"(?:Project-Id-Version|MIME-Version|Content-Type|Content-Transfer-Enc
 # localization note (dtd)
 <!-- Localization note .* -->
 
+# localization key
+^\w+=
+
 # printf named terms
 %\(\w+\)[sd]\b
 
