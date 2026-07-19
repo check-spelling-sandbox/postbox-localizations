@@ -18,6 +18,12 @@ msgid ".*"|"(?:Project-Id-Version|MIME-Version|Content-Type|Content-Transfer-Enc
 # localization key
 ^\w+=
 
+# localization key
+<!ENTITY\s+\S+\s+(?=["'])
+
+# html/sgml/xml comment
+<!--.*-->
+
 # printf markers
 (?<!\\)\\[nrt](?=[a-z]{2,})
 
