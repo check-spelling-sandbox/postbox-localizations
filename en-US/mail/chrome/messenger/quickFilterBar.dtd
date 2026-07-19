@@ -124,7 +124,7 @@
      number of messages found using this string, that there are no messages
      (using quickFilterBar.resultsLabel.none), or the box is hidden.
      This is a pluralizable string used to express the number of messages in
-     the results.  We replace the '#1' with the number of messages, otherwise
+     the results.  We replace the '#1' with the number of messages; otherwise,
      see the following URL For more information:
      https://developer.mozilla.org/En/Localization_and_Plurals
      -->
