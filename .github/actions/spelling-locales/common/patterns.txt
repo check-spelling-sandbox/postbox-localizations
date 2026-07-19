@@ -19,7 +19,7 @@ msgid ".*"|"(?:Project-Id-Version|MIME-Version|Content-Type|Content-Transfer-Enc
 ^[-{}.\w]+=
 
 # localization key
-<!ENTITY\s+\S+\s+(?=["'])
+<!ENTITY\s+\S+(?:\s+(?=["'])|$)
 
 # html/sgml/xml comment
 <!--.*-->
