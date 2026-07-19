@@ -16,7 +16,7 @@ msgid ".*"|"(?:Project-Id-Version|MIME-Version|Content-Type|Content-Transfer-Enc
 <!-- Localization note .* -->
 
 # localization key
-^\w+=
+^[-{}.\w]+=
 
 # localization key
 <!ENTITY\s+\S+\s+(?=["'])
