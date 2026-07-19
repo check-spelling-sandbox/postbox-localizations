@@ -37,7 +37,7 @@
 <!ENTITY canvasDebuggerUI.importSnapshot "Import…">
 
 <!-- LOCALIZATION NOTE (canvasDebuggerUI.clearSnapshots): This string is displayed
-  -  on a button that remvoes all the snapshots. -->
+  -  on a button that removes all the snapshots. -->
 <!ENTITY canvasDebuggerUI.clearSnapshots "Clear">
 
 <!-- LOCALIZATION NOTE (canvasDebuggerUI.searchboxPlaceholder): This string is displayed
