@@ -59,7 +59,7 @@
 <!ENTITY projectButton_label "Open App">
 <!ENTITY runtimeButton_label "Select Runtime">
 
-<!-- We try to repicate Firefox' bindings: -->
+<!-- We try to replicate Firefox' bindings: -->
 <!-- quit app -->
 <!ENTITY key_quit "W">
 <!-- open menu -->
