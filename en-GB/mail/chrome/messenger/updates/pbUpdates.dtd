@@ -7,7 +7,7 @@
 <!ENTITY downloading.label "Downloading update...">
 
 <!ENTITY errorTitle.label "Error">
-<!ENTITY errorProse.description "An error occured during the update. Please download and install the latest version of Postbox from our website.">
+<!ENTITY errorProse.description "An error occurred during the update. Please download and install the latest version of Postbox from our website.">
 <!ENTITY continueButton.label "Continue">
 
 <!ENTITY ready.label "Ready to Install">
