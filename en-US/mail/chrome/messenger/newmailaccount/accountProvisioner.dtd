@@ -18,7 +18,7 @@
 
 <!-- LOCALIZATION NOTE(success.title.before, success.title.after):
      success.title.before and success.title.after all go into one line, wrapping
-     around the name that the user has typed in to the search input. -->
+     around the name that the user has typed into the search input. -->
 <!ENTITY success.title.before "Hello ">
 <!ENTITY success.title.after ", the following email addresses are available to you:">
 <!ENTITY success.tip "(You can also search for nicknames or any other term to find more emails)">
