@@ -19,6 +19,7 @@
     "cspell:css/dict/css.txt",
     "cspell:python/src/python/python-lib.txt",
     "cspell:typescript/dict/typescript.txt",
+    "cspell:aws/aws.txt",
     ""
   ]
 }
