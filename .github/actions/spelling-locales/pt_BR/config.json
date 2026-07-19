@@ -17,6 +17,7 @@
     "cspell1:software-terms/softwareTerms.txt",
     "cspell:pt_BR/src/hunspell/index.dic",
     "cspell:css/dict/css.txt",
+    "cspell:typescript/dict/typescript.txt",
     ""
   ]
 }

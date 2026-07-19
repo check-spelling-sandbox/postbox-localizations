@@ -18,6 +18,7 @@
     "cspell:fr_FR/src/hunspell-french-dictionaries-v7.0/fr-classique.dic",
     "cspell:html/dict/html.txt",
     "cspell:css/dict/css.txt",
+    "cspell:python/src/python/python-lib.txt",
     ""
   ]
 }
