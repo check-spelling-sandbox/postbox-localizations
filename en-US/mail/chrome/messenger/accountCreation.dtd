@@ -66,7 +66,7 @@
 <!ENTITY manual-edit.accesskey           "M">
 <!-- LOCALIZATION NOTE (retest.label): This is the text that is
      displayed on the button which will re-guess the account configuration,
-     taking into account the settings the user has changed. -->
+     taking into account the settings that the user has changed. -->
 <!ENTITY retest.label                    "Re-test Configuration">
 <!ENTITY retest.accesskey                "R">
 <!ENTITY edit.label                      "Edit Settings">
