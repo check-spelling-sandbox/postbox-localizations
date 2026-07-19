@@ -1,5 +1,5 @@
 # Repeated letters
-\b([A-Za-z])\g{-1}{2,}\b
+#\b([A-Za-z])\g{-1}{2,}\b
 
 # marker to ignore all code on line
 ^.*/\* #no-spell-check-line \*/.*$

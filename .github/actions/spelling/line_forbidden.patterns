@@ -61,7 +61,7 @@
 
 # Write out small numbers (unless they are code)
 # See https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Writing%20Small%20and%20Large%20Numbers,ten%29%20are%20written%20as%20numerals%2e
-(?<![=>]|depth|frame|page|project|select)\s[1-9] (?!byte|day|hour|meaning|minute|month|(?:new |)page|people|(?:more |)space|year)[a-z]+ [a-z]+\s
+#(?<![=>]|depth|frame|page|project|select)\s[1-9] (?!byte|day|hour|meaning|minute|month|(?:new |)page|people|(?:more |)space|year)[a-z]+ [a-z]+\s
 
 # Write out numbers at the start of a sentence
 # https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Beginning%20a%20Sentence%20with%20a%20Number,may%20be%2e

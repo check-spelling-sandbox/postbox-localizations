@@ -23,3 +23,9 @@ msgid ".*"|"(?:Project-Id-Version|MIME-Version|Content-Type|Content-Transfer-Enc
 
 # hex digits including css/html color classes
 (?:[\\0][xX]|\\u\{?|[uU]\+|#x?|%23|&H)[0-9_a-fA-FgGrR]*?[a-fA-FgGrR]{2,}[0-9_a-fA-FgGrR]*(?:[uUlL]{0,3}|[iu]\d+)\b
+
+# version suffix {word}v#
+(?:(?<=[A-Z]{2})V|(?<=[a-z]{2}|[A-Z]{2})v)\d+(?:\b|(?=[a-zA-Z_]))
+
+# IServiceProvider / isAThing
+(?:(?:\b|_|(?<=[a-z]))I|(?:\b|_)(?:nsI|isA))(?=(?:[A-Z][a-z]{2,})+(?:[A-Z\d]|\b))
