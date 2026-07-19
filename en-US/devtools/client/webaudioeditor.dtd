@@ -20,7 +20,7 @@
 <!ENTITY webAudioEditorUI.reloadNotice2   "the page to view and edit the audio context.">
 
 <!-- LOCALIZATION NOTE (webAudioEditorUI.emptyNotice): This is the label shown
-  -  while the page is refreshing and the tool waits for a audio context. -->
+  -  while the page is refreshing and the tool waits for an audio context. -->
 <!ENTITY webAudioEditorUI.emptyNotice     "Waiting for an audio context to be created…">
 
 <!-- LOCALIZATION NOTE (webAudioEditorUI.tab.properties2): This is the label shown
