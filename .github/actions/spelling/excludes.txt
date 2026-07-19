@@ -90,3 +90,4 @@
 ^\Q.github/workflows/spelling.yml\E$
 /date\.js$
 ignore$
+^[^/]+/toolkit/chrome/global/(?:language|region)Names\.properties$

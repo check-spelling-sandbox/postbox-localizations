@@ -1,1 +1,2 @@
 ^\.github/actions/spelling
+^[^/]+/toolkit/chrome/global/(?:language|region)Names\.properties$

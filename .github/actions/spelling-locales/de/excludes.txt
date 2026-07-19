@@ -236,3 +236,4 @@
 ^de/toolkit/chrome/places/places\.properties$
 ^de/toolkit/chrome/pluginproblem/pluginproblem\.dtd$
 ^de/toolkit/crashreporter/crashes\.properties$
+^[^/]+/toolkit/chrome/global/(?:language|region)Names\.properties$

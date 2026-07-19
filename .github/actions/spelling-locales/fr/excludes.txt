@@ -187,3 +187,4 @@
 ^fr/toolkit/chrome/mozapps/extensions/newaddon\.properties$
 ^fr/toolkit/chrome/mozapps/handling/handling\.dtd$
 ^fr/toolkit/crashreporter/crashes\.properties$
+^[^/]+/toolkit/chrome/global/(?:language|region)Names\.properties$

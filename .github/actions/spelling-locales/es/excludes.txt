@@ -222,3 +222,4 @@
 ^es-ES/toolkit/chrome/pluginproblem/pluginproblem\.dtd$
 ^es-ES/toolkit/crashreporter/crashes\.dtd$
 ^es-ES/toolkit/crashreporter/crashes\.properties$
+^[^/]+/toolkit/chrome/global/(?:language|region)Names\.properties$

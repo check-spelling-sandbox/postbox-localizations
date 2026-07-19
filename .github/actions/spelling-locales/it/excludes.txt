@@ -310,3 +310,4 @@
 ^it/toolkit/chrome/pluginproblem/pluginproblem\.dtd$
 ^it/toolkit/crashreporter/crashes\.dtd$
 ^it/toolkit/crashreporter/crashes\.properties$
+^[^/]+/toolkit/chrome/global/(?:language|region)Names\.properties$
