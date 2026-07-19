@@ -23,12 +23,12 @@
 <!ENTITY btnPageNet.label   "Net">
 <!ENTITY btnPageNet.tooltip "Log network access">
 <!ENTITY btnPageNet.accesskey "N">
-<!-- LOCALIZATION NOTE (btnPageNet.accesskeyMacOSX): This string is used as
+<!-- LOCALIZATION NOTE (btnPageNet.accesskeymacOSX): This string is used as
   -  access key for the menu button that allows users to toggle the network
-  -  logging output. On MacOSX accesskeys are available with Ctrl-*. Please make
+  -  logging output. On macOSX accesskeys are available with Ctrl-*. Please make
   -  sure you do not use the following letters: A, E, N and P. These are used
   -  for editing commands in text inputs. -->
-<!ENTITY btnPageNet.accesskeyMacOSX "t">
+<!ENTITY btnPageNet.accesskeymacOSX "t">
 <!ENTITY btnPageCSS.label   "CSS">
 <!ENTITY btnPageCSS.tooltip2 "Log CSS errors and warnings">
 <!ENTITY btnPageCSS.accesskey "C">
