@@ -23,7 +23,7 @@
 <li>Download and install the Postbox application, install a sample email account, then go to the File menu > Languages > select your language. Then restart Postbox.</li>
 <li><strong>Look through Postbox's:</strong>
 <ul>
-<li>main interface - all of it's windows, folder names, button names, etc.</li>
+<li>main interface - all of its windows, folder names, button names, etc.</li>
 <li>every menu and sub-menu</li>
 <li>every Preference panel and sub panel</li>
 <li>look through the .dtd localization files themselves to find untranslated texts. </li>
